@@ -1,0 +1,51 @@
+#p01_bubble_sort.txt
+#Author: Samuel Patrick
+#Date: 9/8/16
+#>The bubble sort problem<
+
+Sorting and searching go hand in hand.  They are also two important operations that are used to solve programming problems.
+This lesson will require you to write and test a sorting program that implements the bubble sort.
+
+PROBLEM:
+1.Write a program that can take a list of numbers and order them from smallest to largest.
+2.The solution should use the bubble sort algorithm. (Algorithm described below, or you can search the web)
+3.Create the following lists for your code to sort.
+{1,3,4,7,2,5},{1,2,3,4,5},{5,4,3,2,1},{10,4,-6,2,15,-2},{b,i,n,g,o}
+4.Print the sorted list to the screen with each list on a seperate line.
+5.Comment your code to explain what each line is doing.
+6.Compare your code to the solutions and check for accuracy
+
+BONUS PROBLEM:
+1.Modify your solution to take input from the user.
+2.Ask the user to input 5 numbers in any order.
+3.Sort the user input
+4.Print the sorted user input to the screen
+5.Try to get an error by entering different inputs
+6.Implement a counter to keep track of how many "swaps" the program does on a list
+7.Print the counter to the screen
+
+BUBBLE SORT ALGORITHM:
+The bubble sort is one of the most basic algorithms used for sorting.
+The idea is to have the smallest numbers "bubble" to the top(front) of the list.
+The algorithm goes through the list front to back, and compares adjacent items in the list.
+If the first item is bigger than the second item, it changes(swaps) their locations in the list.
+It will compare first and second, second and third, etc.
+It goes until it reaches the end of the list.  Then it starts back at the front.
+It keeps going through the list until the list is sorted. Each time through is called a pass.
+
+EXAMPLE:
+Take the following example list. {5,6,3,1,2}
+Pass 1:
+{5,6,...} : 5 is not greater than 6, so do not swap : {5,6,3,1,2}
+{...,6,3,...} : 6 is greater than 3, so swap : {5,3,6,1,2}
+{...,6,1,...} : 6 is greater than 1, so swap : {5,3,1,6,2}
+{...,6,2} : 6 is greater than 2, so swap : {5,3,1,2,6}
+Pass 2:
+{5,3,...} : 5 is greater than 3, so swap : {3,5,1,2,6}
+etc...
+
+HINTS:
+Arrays are a great way to store lists.
+How will your program know when the list is sorted?
+Try and write out the steps of your solution.  This is called writing an algorithm.
+You can turn your algorithm into pseudocode by rewriting the steps with programming terms and logic. (e.g. array, for, equals, if)
