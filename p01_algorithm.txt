@@ -1,0 +1,19 @@
+#p01_algorithm.txt
+#Author: Samuel Patrick
+#Date: 9/9/16
+#>A basic algorithm for solving p01_bubble_sort<
+
+1. Create the list of items
+2. Create a method to store the size of the list
+3. Create a method to track if the list is sorted
+4. Create a method to track the position in the list
+5. Read the list
+6. Set the position to the start (first item) of the list
+7. Set the list to sorted 
+8. Compare the current item with the next item
+  a. If a swap is performed set the list to unsorted
+9. Check if the end of the list has been reached
+10. Check if the list is sorted
+  a. If it sorted go to step 11
+  b. If it is not sorted go back to step 6
+11. Print the sorted list to the screen
