@@ -246,7 +246,7 @@ void main()
 
 			//loop through the list from start to end
 			//we stop the loop at size-1 since we are comparing n and n+1 elements
-			while (position < 4)
+			while (position < SIZE - 2)
 			{
 				if (user[position] > user[position + 1])
 				{
@@ -264,7 +264,7 @@ void main()
 		position = 0;
 		cout << "Sorted User List: ";
 		//we again cheat since we know the size of the list
-		while (position < 5)
+		while (position < SIZE - 1)
 		{
 			cout << user[position] << " ";
 			position = position + 1;
