@@ -1,6 +1,40 @@
 #p02_chance.txt
 #Author: Samuel Patrick
 #Date: 9/16/16
-#>Using random number<
+#>Using random numbers<
 
+**** You will need either chance.cpp or chance.py for this problem.  ****
 
+PROBLEM
+
+Random numbers are used for all kinds of problems.  For this particular homework you will be modifying
+the provided program to solve a couple of problems.  The random number generator has been provided, but
+you will need to modify it to provide acceptable output.  Do not use functions like range() to 
+solve the problem.  Try and do it the hard way.
+
+PROBLEM 1 - CHANGE IT
+Just a warm up to get familiar with the random generator.  Modify the program to give a guess on the
+amount of change you will get back.  This means all output is 0-100. 
+
+PROBLEM 2 - DICE GAME
+Probably the simplest use of random numbers. Modify the program to produce dice rolls for a six sided die.
+That means all output should be 1-6.
+
+PROBLEM 3 - WEIGHT GAME
+Modify the program to guess a persons weight.  Make the output realistic.
+
+HINTS
+
+The generator takes a low and high parameter.  What could they be used for?
+To limit the size of the number you may want to use a property of division.
+
+EXTRA CREDIT
+
+PROBLEM 2 - ADVANCED
+Try and build a dice game that uses the results. (RISK, YAHTZEE, FARKLE)
+
+PROBLEM 3 - ADVANCED
+Try and build a carnival game that takes the users height and age, and guesses within +/- 10 pounds.
+
+PROBLEM 4 - HIGH/LOW
+Try and build a game that stores 6 numbers.  The user then guesses if the next number is higher or lower.
