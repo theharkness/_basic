@@ -1,0 +1,6 @@
+#p02_chance.txt
+#Author: Samuel Patrick
+#Date: 9/16/16
+#>Using random number<
+
+
