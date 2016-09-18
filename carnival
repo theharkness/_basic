@@ -1,0 +1,17 @@
+print "how tall are you, stranger (in inches)?"
+
+height = raw_input(">>>")
+tall = int(height)
+
+print "and how old are you?"
+
+age = raw_input(">>>")
+old = int(age)
+
+def guess(x,y):
+    return x + x + y + 40
+
+
+carnival = guess(old, tall)
+
+print "So you probably weigh %d pounds" % carnival
