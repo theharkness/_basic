@@ -1,0 +1,31 @@
+import random
+from sys import exit
+
+def victory():
+    print "Congratulations!"
+    exit(0)
+
+
+def numgen():
+    experiment = random.randint(1,6)
+    experiment2 = random.randint(2,7)
+    print "I'm going to give you a number."
+    print "Okay, it's %d" % experiment
+    print "Now your job is to guess if the next number is higher or lower"
+    attempt = raw_input(">>>")
+
+    if "higher" in attempt and (experiment2 > experiment):
+        victory()
+
+    elif "lower" in attempt and (experiment > experiment2):
+        victory()
+
+    else:
+        tryagain()
+
+def tryagain():
+    print "Good try but ya done!"
+    numgen()
+
+
+numgen()
